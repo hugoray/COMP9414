@@ -1,0 +1,26 @@
+task, t1 1 
+task, t2 1 
+task, t3 1
+task, t4 1
+task, t5 1
+task, t6 1
+task, t7 1
+task, t8 1
+
+constraint, t1 before t2 
+constraint, t1 same-day t2
+constraint, t2 before t3 
+constraint, t2 same-day t3
+constraint, t3 before t4
+constraint, t3 same-day t4
+constraint, t4 before t5 
+constraint, t4 same-day t5
+constraint, t5 before t6 
+constraint, t5 same-day t6
+constraint, t6 before t7 
+constraint, t6 same-day t8
+constraint, t7 before t8 
+constraint, t7 same-day t8
+
+domain, t7 ends-by mon 3pm 10 
+domain, t8 ends-by mon 3pm 10
